@@ -1,11 +1,11 @@
 document.getElementById('downloadBtn').addEventListener('click', function() {
 
-    const appUrl = 'FireArena BD.apk';
+    const appUrl = 'SK NAHIM YT.apk';
     
    
     const link = document.createElement('a');
     link.href = appUrl;
-    link.download = 'FireArena BD.apk';
+    link.download = 'SK NAHIM YT.apk';
     
 
     document.body.appendChild(link);
