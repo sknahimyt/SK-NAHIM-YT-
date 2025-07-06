@@ -1,99 +1,135 @@
-<!DOCTYPE html>
-<html lang="bn">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Fire Tournament Download Hub</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="SK NAHIM YT.apk" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BooyahX - Free Fire Tournament</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #f5f5f5;
+      text-align: center;
+      padding: 0;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    .header-section {
+      padding: 20px 0 10px;
+    }
+    .logo {
+      width: 110px;
+      display: block;
+      margin: 0 auto 8px;
+    }
+    h1 {
+      font-size: 1.6em;
+      color: #00f0ff;
+      margin-bottom: 16px;
+    }
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      color: #fff;
+      padding: 14px 32px;
+      font-size: 1.1em;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 12px rgba(255, 65, 108, 0.8),
+                  0 0 24px rgba(255, 75, 43, 0.6);
+      transition: all 0.3s ease;
+      margin-bottom: 10px;
+    }
+    .download-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 24px rgba(255, 65, 108, 0.9),
+                  0 0 40px rgba(255, 75, 43, 0.8);
+    }
+    .screenshots {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 0 10px;
+      margin-top: 10px;
+      scroll-behavior: smooth;
+    }
+    .screenshots::-webkit-scrollbar {
+      display: none;
+    }
+    .screenshots img {
+      width: 160px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 18px rgba(0, 255, 255, 0.4),
+                  0 0 28px rgba(255, 65, 108, 0.5);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      flex-shrink: 0;
+    }
+    .screenshots img:hover {
+      box-shadow: 0 0 28px rgba(0, 255, 255, 0.6),
+                  0 0 48px rgba(255, 65, 108, 0.7);
+      transform: translateY(-4px);
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+      padding-bottom: 20px;
+    }
+    .contact-info {
+      font-size: 0.95em;
+      margin-bottom: 10px;
+      color: #aaa;
+    }
+    #vscroll1, #hscroll1 {
+      scroll-behavior: smooth;
+      overflow: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    #vscroll1::-webkit-scrollbar,
+    #hscroll1::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="1000000254.jpg" alt="SK NAHIM YT" class="logo">
-            <h2>SK NAHIM YT  টপ আপ apps ডাউনলোড করুন</h2>
-                <p>অংশগ্রহণ করতে অফিসিয়াল Top Up অ্যাপ ডাউনলোড করুন</p>
-                <button id="downloadBtn" class="download-button">
-                    <span class="button-text">ডাউনলোড করুন</span>
-                    <span class="button-icon"></span>
-                </button>
-            </div>
-
-            <div class="rules-section">
-                <h2>টুর্নামেন্টের নিয়মাবলি</h2>
-                <div class="rules-grid">
-                    <div class="rule-item">
-                        <h3>১. রেজিস্ট্রেশন</h3>
-                        <p>অ্যাপ ডাউনলোড করে রেজিস্ট্রেশন সম্পূর্ণ করুন</p>
-                    </div>
-                    <div class="rule-item">
-                        <h3>২. দল গঠন</h3>
-                        <p>১/২/৪ জন খেলোয়াড় নিয়ে দল গঠন করুন</p>
-                    </div>
-                    <div class="rule-item">
-                        <h3>৩. স্লট বুকিং</h3>
-                        <p>টুর্নামেন্টের স্লট বুক করুন</p>
-                    </div>
-                    <div class="rule-item">
-                        <h3>৪. খেলার সময়</h3>
-                        <p>নির্ধারিত সময়ে লবিতে জয়েন করুন</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="screenshots-section">
-                <h2>গেম স্ক্রিনশট</h2>
-                <div class="screenshots-grid">
-                    <div class="screenshot-item">
-                        <div class="screenshot-overlay">
-                            <img src="mrx1.PNG" alt="Free Fire Tournament Screenshot 1" loading="lazy">
-                            <div class="screenshot-text">
-                                <h3>টুর্নামেন্ট লবি</h3>
-                                <p>প্রতিযোগিতার জন্য প্রস্তুত হন</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="screenshot-item">
-                        <div class="screenshot-overlay">
-                            <img src="mrx2.PNG" alt="Free Fire Tournament Screenshot 2" loading="lazy">
-                            <div class="screenshot-text">
-                                <h3>ম্যাচ প্লে</h3>
-                                <p>আকর্ষণীয় গেমপ্লে অপেক্ষা করছে</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="screenshot-item">
-                        <div class="screenshot-overlay">
-                            <img src="mrx3.PNG" alt="Free Fire Tournament Screenshot 3" loading="lazy">
-                            <div class="screenshot-text">
-                                <h3>পুরস্কার</h3>
-                                <p>আকর্ষণীয় পুরস্কার জিতুন</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="logo.png" alt="FireArena BD" class="logo.PNG">
-                        <h3>FireArena BD</h3>
-                    </div>
-                    <p class="footer-description">বাংলাদেশের সবচেয়ে বড় Free Fire Dimond প্ল্যাটফর্ম</p>
-                </div>
-                <div class="footer-section">
-                    <h4>যোগাযোগ করুন</h4>
-                    <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> sknahimyt678323@gmail.com</p>
-                        <p><i class="fas fa-phone"></i>+8801622832140</p>
-                <p class="copyright">২০২৫ FireArena BD | MUHAMMAD ZAHIRUL</p>
-            </div>
-        </footer>
+  <div class="header-section">
+    <img src="ZAHIRUL.PNG" alt="BooyahX Logo" class="logo">
+    <h1>BooyahX FreeFire & Ludo Tournament</h1>
+    <a href="BooyahX.apk" class="download-btn"> Download Now</a>
+  </div>  <div id="hscroll1" class="screenshots">
+    <img src="ZAHIRUL1.PNG" alt="Screenshot 1">
+    <img src="ZAHIRUL2.PNG" alt="Screenshot 2">
+    <img src="ZAHIRUL3.PNG" alt="Screenshot 3">
+    <img src="ZAHIRUL4.PNG" alt="Screenshot 4">
+    <img src="ZAHIRUL5.PNG" alt="Screenshot 5">
+  </div>  <footer>
+    <div class="contact-info">
+       jibonmahmud630@gmail.com<br>
+       +8801856591506
     </div>
-    <link rel="stylesheet" href="SK NAHIM YT.apk">
-    <script src="script.js"></script>
-</body>
+    � 2025 BooyahX. All rights reserved.
+  </footer>  <script>
+    function _removeScollBar(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.style.overflow = 'auto';
+        el.style.scrollbarWidth = 'none';
+        el.style.msOverflowStyle = 'none';
+        el.style.scrollBehavior = 'smooth';
+      }
+    }
+
+    _removeScollBar("vscroll1");
+    _removeScollBar("hscroll1");
+  </script></body>
 </html>
